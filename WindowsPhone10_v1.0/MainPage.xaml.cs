@@ -26,5 +26,10 @@ namespace WindowsPhone10_v1._0
         {
             this.InitializeComponent();
         }
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new Windows.UI.Popups.MessageDialog("Hello from UWP!");
+            await dialog.ShowAsync();
+        }
     }
 }

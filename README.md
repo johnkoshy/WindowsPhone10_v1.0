@@ -1,1 +1,1 @@
-to run the program install microsoft visual studio community 2019
+to run the program, install microsoft visual studio community 2019

@@ -1,35 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿using System.Collections.ObjectModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace WindowsPhone10_v1._0
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
+        ObservableCollection<string> tasks = new ObservableCollection<string>();
+
         public MainPage()
         {
             this.InitializeComponent();
+            TaskList.ItemsSource = tasks;
         }
-        private async void Button_Click(object sender, RoutedEventArgs e)
+
+        private void AddTask_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new Windows.UI.Popups.MessageDialog("Hello from UWP!");
-            await dialog.ShowAsync();
+            if (!string.IsNullOrWhiteSpace(TaskInput.Text))
+            {
+                tasks.Add(TaskInput.Text);
+                TaskInput.Text = "";
+            }
+        }
+
+        private void DeleteTask_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            var task = button?.Tag as string;
+            if (task != null && tasks.Contains(task))
+            {
+                tasks.Remove(task);
+            }
+        }
+
+        private void Task_Checked(object sender, RoutedEventArgs e)
+        {
+            // Optional: You can add completed logic here
         }
     }
 }

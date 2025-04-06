@@ -2,22 +2,25 @@
     x:Class="WindowsPhone10_v1._0.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:WindowsPhone10_v1._0"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock Text="Hello, Windows 10 Mobile!" 
-                   FontSize="24" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" />
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Welcome to my UWP app!" FontSize="20" Margin="0,0,0,20"/>
-            <Button Content="Click Me" Click="Button_Click"/>
+    <StackPanel Padding="20" Spacing="10">
+        <TextBlock Text="My To-Do List" FontSize="28" Margin="0,0,0,10"/>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBox x:Name="TaskInput" Width="200" PlaceholderText="Enter a task..." />
+            <Button Content="Add" Margin="10,0,0,0" Click="AddTask_Click"/>
         </StackPanel>
 
-
-    </Grid>
+        <ListView x:Name="TaskList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Content="{Binding}" Checked="Task_Checked" Unchecked="Task_Checked"/>
+                        <Button Content="❌" Click="DeleteTask_Click" Tag="{Binding}" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
 </Page>

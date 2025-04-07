@@ -43,3 +43,4 @@ C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debu
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424617200000000.json
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\Newtonsoft.Json.dll

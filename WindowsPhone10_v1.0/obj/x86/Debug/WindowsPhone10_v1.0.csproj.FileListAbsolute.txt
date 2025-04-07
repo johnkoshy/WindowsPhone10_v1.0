@@ -1,3 +1,14 @@
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.csproj.AssemblyReference.cache
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.i.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xaml
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xaml
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xbf
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xbf
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\App.xbf
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\MainPage.xbf
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\WindowsPhone10_v1.0.xr.xml
@@ -10,16 +21,6 @@ C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debu
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\WindowsPhone10_v1.0.build.appxrecipe
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\System.Runtime.dll
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.i.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\XamlTypeInfo.g.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xaml
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xaml
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xbf
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xbf
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.csproj.CoreCompileInputs.cache
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.csproj.CopyComplete
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.exe
@@ -42,4 +43,3 @@ C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debu
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424617200000000.json
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.csproj.AssemblyReference.cache

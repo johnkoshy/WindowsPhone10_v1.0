@@ -1,9 +1,8 @@
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\WindowsPhone10_v1.0.csproj.AssemblyReference.cache
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.i.cs
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.g.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.g.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPageTemp.g.i.cs
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPageTemp.g.cs
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xaml
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xaml
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPageTemp.xaml
 C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\App.xbf
-C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPage.xbf
+C:\Users\koshy\source\repos\WindowsPhone10_v1.0\WindowsPhone10_v1.0\obj\x86\Debug\MainPageTemp.xbf

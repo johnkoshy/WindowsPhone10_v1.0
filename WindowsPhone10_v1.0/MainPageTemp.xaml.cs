@@ -14,17 +14,18 @@ namespace WindowsPhone10_v1._0
         private ObservableCollection<TaskItem> tasks = new ObservableCollection<TaskItem>();
         private readonly string fileName = "tasks.json";
 
-        public MainPage()
+        public MainPageTemp() // Fixed constructor name
         {
             this.InitializeComponent();
             TaskList.ItemsSource = tasks;
             this.Loaded += MainPage_Loaded;
         }
+
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
-{
-    ApplySavedTheme();
-    LoadTasksFromLocal();
-}
+        {
+            ApplySavedTheme();
+            LoadTasksFromLocal();
+        }
 
         private void ApplySavedTheme()
         {
@@ -44,13 +45,9 @@ namespace WindowsPhone10_v1._0
         private void ThemeToggle_Toggled(object sender, RoutedEventArgs e)
         {
             var isDark = ThemeToggle.IsOn;
-
             var uiSettings = isDark ? ElementTheme.Dark : ElementTheme.Light;
             this.RequestedTheme = uiSettings;
-
-            // Save preference
             ApplicationData.Current.LocalSettings.Values["AppTheme"] = isDark ? "Dark" : "Light";
-
             ApplyTheme(uiSettings);
         }
 
@@ -58,7 +55,6 @@ namespace WindowsPhone10_v1._0
         {
             this.RequestedTheme = theme;
         }
-
 
         private async void SaveTasksAsync()
         {
@@ -74,7 +70,6 @@ namespace WindowsPhone10_v1._0
                 var file = await ApplicationData.Current.LocalFolder.GetFileAsync("tasks.json");
                 var json = await FileIO.ReadTextAsync(file);
                 var loadedTasks = JsonConvert.DeserializeObject<ObservableCollection<TaskItem>>(json);
-
                 if (loadedTasks != null)
                 {
                     tasks = loadedTasks;
@@ -86,7 +81,6 @@ namespace WindowsPhone10_v1._0
                 // No saved tasks yet — ignore
             }
         }
-
 
         private void AddTask_Click(object sender, RoutedEventArgs e)
         {

@@ -18,9 +18,47 @@ namespace WindowsPhone10_v1._0
         {
             this.InitializeComponent();
             TaskList.ItemsSource = tasks;
-            LoadTasksFromLocal();
-
+            this.Loaded += MainPage_Loaded;
         }
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+{
+    ApplySavedTheme();
+    LoadTasksFromLocal();
+}
+
+        private void ApplySavedTheme()
+        {
+            var themeSetting = ApplicationData.Current.LocalSettings.Values["AppTheme"] as string;
+            if (themeSetting == "Dark")
+            {
+                ThemeToggle.IsOn = true;
+                ApplyTheme(ElementTheme.Dark);
+            }
+            else
+            {
+                ThemeToggle.IsOn = false;
+                ApplyTheme(ElementTheme.Light);
+            }
+        }
+
+        private void ThemeToggle_Toggled(object sender, RoutedEventArgs e)
+        {
+            var isDark = ThemeToggle.IsOn;
+
+            var uiSettings = isDark ? ElementTheme.Dark : ElementTheme.Light;
+            this.RequestedTheme = uiSettings;
+
+            // Save preference
+            ApplicationData.Current.LocalSettings.Values["AppTheme"] = isDark ? "Dark" : "Light";
+
+            ApplyTheme(uiSettings);
+        }
+
+        private void ApplyTheme(ElementTheme theme)
+        {
+            this.RequestedTheme = theme;
+        }
+
 
         private async void SaveTasksAsync()
         {
